@@ -10,6 +10,18 @@ Java Email System Web Application
 
 ## 2. Tech Stack:
 
+- HTML / CSS / Bootstrap / JS
+
+- Java 11
+
+- Jakarta EE
+
+- JSP / Servlet
+
+- GMail Account (SMTP)
+
+- Apache 10 Server
+
 
 ## 3. What is the MVP?
 
