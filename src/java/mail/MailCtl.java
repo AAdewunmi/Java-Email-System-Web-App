@@ -62,6 +62,12 @@ public class MailCtl extends HttpServlet {
         
         if (OP_GO.equalsIgnoreCase(op)) {
             EmailMessage msg = new EmailMessage();
+            msg.setTo(email);
+            msg.setSubject(subject);
+            msg.setMessage(message);
+            msg.setMessageType(EmailMessage.HTML_MSG);
+            
+            EmailUtility.sendMail(msg);
         }
         processRequest(request, response);
     }
