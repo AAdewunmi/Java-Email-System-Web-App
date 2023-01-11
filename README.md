@@ -22,6 +22,27 @@ Java Email System Web Application
 
 - Apache 10 Server
 
+- Dependency: 
+
+```
+<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.5.0-b01</version>
+</dependency>
+
+```
+
+```
+<!-- https://mvnrepository.com/artifact/javax.ejb/ejb-api -->
+<dependency>
+    <groupId>javax.ejb</groupId>
+    <artifactId>ejb-api</artifactId>
+    <version>3.0-alpha-1</version>
+    <scope>provided</scope>
+</dependency>
+```
 
 ## 3. What is the MVP?
 
