@@ -69,7 +69,7 @@ public class MailCtl extends HttpServlet {
             
             EmailUtility.sendMail(msg);
         }
-        processRequest(request, response);
+        //processRequest(request, response);
     }
 
 

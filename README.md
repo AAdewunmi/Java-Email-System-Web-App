@@ -44,6 +44,11 @@ Java Email System Web Application
 </dependency>
 ```
 
+- How To Use:
+
+```
+Add your gmail at EmailUtility.java
+```
 ## 3. What is the MVP?
 
 
