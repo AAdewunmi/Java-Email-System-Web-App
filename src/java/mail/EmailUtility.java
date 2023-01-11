@@ -8,6 +8,7 @@ package mail;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Properties;
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -34,7 +35,8 @@ public class EmailUtility {
     
     public static void sendMail(EmailMessage emailMessageDTO){
         try {
-            Path filename = Path.of("Path_to_password.txt_file");
+            // Path filename = Path.of("Path_to_password.txt_file");
+            Path filename = Paths.get("Path_to_password.txt_file");
             String pass = Files.readString(filename);
             final String sender_Email = "Your_email@gmail.com";
             final String sender_email_pass = pass;
