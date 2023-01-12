@@ -63,6 +63,15 @@ public class MailService {
         folder.open(Folder.READ_WRITE);
     }
     
+    /**
+     * To logout from the mail host server
+     */
     
+    public void logout() throws MessagingException{
+        folder.close(false);
+        store.close();
+        store = null;
+        session = null;
+    }
     
 }
