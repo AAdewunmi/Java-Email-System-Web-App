@@ -1,11 +1,11 @@
-
-# $$\textcolor{red}{\text{UNDER CONSTRUCTION}}$$
-
 # Project Title:
 
 Java Email System Web Application
 
-## 1. What is the project?
+
+## 1. Project Description:
+
+An email system to send and receive mails using Java JSP / servlet technology and JavaMail API.
 
 
 ## 2. Tech Stack:
@@ -22,7 +22,25 @@ Java Email System Web Application
 
 - Apache 10 Server
 
-- Dependency: 
+- Maven
+
+
+## 3. Installation:
+
+i. Clone the git repo
+
+```
+https://github.com/AAdewunmi/Java-Email-System-Web-App.git
+```
+
+ii. Open project folder
+
+iii. Explore
+
+😎
+
+
+## 4. Maven Dependencies:
 
 ```
 <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
@@ -44,23 +62,29 @@ Java Email System Web Application
 </dependency>
 ```
 
-- How To Use:
+
+## 5. How To Use:
+
+Add the following:
 
 ```
-Add your gmail at EmailUtility.java
+Path to password.txt file
+Your gmail address 
 ```
-## 3. What is the MVP?
+to to EmailUtility.java and MailService.java
 
 
-## 4. What are the sprinkles? 
+## 6. Demo:
+
+![This is an image](web/screenshot.png)
 
 
-## 5. When will the project be complete? 
+## 7. Contributing:
 
-The project will be complete once all the MVP features have been implemented.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
-## 6. Adapted from: 
+## 8. Adapted from: 
 
 UDEMY: Java Development Mega Course: Build Projects Practically
 
