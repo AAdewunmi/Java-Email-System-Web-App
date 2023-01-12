@@ -65,6 +65,7 @@ public class MailService {
     
     /**
      * To logout from the mail host server
+     * @throws javax.mail.MessagingException
      */
     
     public void logout() throws MessagingException{
@@ -72,6 +73,16 @@ public class MailService {
         store.close();
         store = null;
         session = null;
+    }
+    
+    public int getMessageCount(){
+        int messageCount = 0;
+        try {
+            messageCount = folder.getDeletedMessageCount();
+        } catch (MessagingException me) {
+            me.printStackTrace();
+        }
+        return messageCount;
     }
     
 }
