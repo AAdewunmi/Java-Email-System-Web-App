@@ -68,8 +68,10 @@ public class MailCtl extends HttpServlet {
             msg.setMessageType(EmailMessage.HTML_MSG);
             
             EmailUtility.sendMail(msg);
+            request.setAttribute("msg", "Mail has been sent successfully!");
         }
-        //processRequest(request, response);
+        RequestDispatcher rd=request.getRequestDispatcher("index.jps");
+        rd.forward(request, response);
     }
 
 

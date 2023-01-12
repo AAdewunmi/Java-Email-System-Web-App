@@ -36,7 +36,7 @@ public class EmailUtility {
     public static void sendMail(EmailMessage emailMessageDTO){
         try {
             // Path filename = Path.of("Path_to_password.txt_file");
-            Path filename = Paths.get("Path_to_password.txt_file");
+            Path filename = Paths.get("Path_to_your_password.txt_file");
             String pass = Files.readString(filename);
             final String sender_Email = "Your_email@gmail.com";
             final String sender_email_pass = pass;
