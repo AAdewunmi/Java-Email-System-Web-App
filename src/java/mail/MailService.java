@@ -10,6 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Properties;
 import javax.mail.Folder;
+import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.NoSuchProviderException;
 import javax.mail.Session;
@@ -83,6 +84,10 @@ public class MailService {
             me.printStackTrace();
         }
         return messageCount;
+    }
+    
+    public Message[] getMessages() throws MessagingException{
+        return folder.getMessages();
     }
     
 }
