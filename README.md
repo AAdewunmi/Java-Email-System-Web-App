@@ -27,17 +27,18 @@ An email system to send and receive mails using Java JSP / servlet technology an
 
 ## 3. Installation:
 
-i. Clone the git repo
+> I mistakenly created a web project instead of a maven web project, so this project will only 
+display the landing page if you clone and run. It will not send or receive emails.
+To get email to work, create a maven web project, then add the files in the repo and 
+dependencies to your project. Have fun. 😎
+
+Git repo:
 
 ```
 https://github.com/AAdewunmi/Java-Email-System-Web-App.git
 ```
 
-ii. Open project folder
 
-iii. Explore
-
-😎
 
 
 ## 4. Maven Dependencies:
